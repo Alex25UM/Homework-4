@@ -2,17 +2,17 @@ package homework4;
 
 public class LibraryTester {
 	public static void main(String[] args) {
-			//spent twenty minutes only to find out that "0" and 'O' are different data types
-			
-			BookShelf oShelf = new BookShelf('0');
-			BookShelf tShelf = new BookShelf('T');
+		//spent twenty minutes only to find out that "0" and 'O' are different data types
 		
-			System.out.println(oShelf);
-			System.out.println(tShelf);
+		BookShelf oShelf = new BookShelf('0');
+		BookShelf tShelf = new BookShelf('T');
+	
+		System.out.println(oShelf);
+		System.out.println(tShelf);
 		
-			//copy pasted the same line of code 4 times instead of writing it down 
-			Book book1 = new Book("The Heart of the Betrayed", "Crime");
-			Book book2 = new Book("Our Hill of Stars", "Fantasy");
+		//copy pasted the same line of code 4 times instead of writing it down 
+		Book book1 = new Book("The Heart of the Betrayed", "Crime");
+		Book book2 = new Book("Our Hill of Stars", "Fantasy");
         	Book book3 = new Book("One of a Kind", "Science Fiction");
         	Book book4 = new Book("The Vision of Roses", "Romance");
         
